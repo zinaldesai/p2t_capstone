@@ -95,7 +95,7 @@ const UserProfileForm = ({onSave, isLoading}: Props) => {
                         <FormMessage />
                     </FormItem>)} />
                     </div>
-                    {isLoading ? <LoadingButton /> : <Button type="submit" className="bg-orange-500">Submit</Button>}
+                    {isLoading ? <LoadingButton /> : <Button type="submit" className="bg-[#496928]">Submit</Button>}
             </form>
         </Form>
     )
